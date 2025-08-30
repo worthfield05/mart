@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+.editorconfig
+.gitattributes
+.pnp.cjs
+.pnp.loader.mjs
+.yarn
