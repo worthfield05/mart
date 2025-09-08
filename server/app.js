@@ -7,6 +7,7 @@ const hpp = require("hpp");
 const mongoSanitize = require("express-mongo-sanitize");
 const errorHandler = require("./middlewares/errorMiddleware");
 const authRoutes = require("./routers/auth.route");
+const categoriesRoutes = require("./routers/categories.route");
 const morgan = require("morgan");
 const cookieParser = require("cookie-parser");
 require("dotenv").config();
@@ -28,6 +29,7 @@ app.use(hpp());
 app.use(compression());
 app.use(morgan("dev"));
 app.use("/api/auth", authRoutes.router);
+app.use("/api/categories", categoriesRoutes.router);
 
 app.use(errorHandler);
 module.exports = app;
