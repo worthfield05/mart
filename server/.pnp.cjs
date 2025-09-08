@@ -30,6 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["bcrypt", "npm:6.0.0"],\
           ["compression", "npm:1.8.1"],\
+          ["cookie-parser", "npm:1.4.7"],\
           ["cors", "npm:2.8.5"],\
           ["dotenv", "npm:17.2.1"],\
           ["express", "npm:5.1.0"],\
@@ -39,6 +40,7 @@ const RAW_RUNTIME_STATE =
           ["hpp", "npm:0.2.3"],\
           ["jsonwebtoken", "npm:9.0.2"],\
           ["mongoose", "npm:8.18.0"],\
+          ["morgan", "npm:1.10.1"],\
           ["nodemailer", "npm:7.0.5"],\
           ["nodemon", "npm:3.1.10"],\
           ["server", "workspace:."],\
@@ -221,6 +223,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/balanced-match-npm-1.0.2-a53c126459-10c0.zip/node_modules/balanced-match/",\
         "packageDependencies": [\
           ["balanced-match", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["basic-auth", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/basic-auth-npm-2.0.1-f1627ef330-10c0.zip/node_modules/basic-auth/",\
+        "packageDependencies": [\
+          ["basic-auth", "npm:2.0.1"],\
+          ["safe-buffer", "npm:5.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -480,7 +492,25 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["cookie-parser", [\
+      ["npm:1.4.7", {\
+        "packageLocation": "../../../.yarn/berry/cache/cookie-parser-npm-1.4.7-970a70a2fd-10c0.zip/node_modules/cookie-parser/",\
+        "packageDependencies": [\
+          ["cookie", "npm:0.7.2"],\
+          ["cookie-parser", "npm:1.4.7"],\
+          ["cookie-signature", "npm:1.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["cookie-signature", [\
+      ["npm:1.0.6", {\
+        "packageLocation": "../../../.yarn/berry/cache/cookie-signature-npm-1.0.6-93f325f7f0-10c0.zip/node_modules/cookie-signature/",\
+        "packageDependencies": [\
+          ["cookie-signature", "npm:1.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:1.2.2", {\
         "packageLocation": "../../../.yarn/berry/cache/cookie-signature-npm-1.2.2-8474a8ac29-10c0.zip/node_modules/cookie-signature/",\
         "packageDependencies": [\
@@ -1634,6 +1664,20 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["morgan", [\
+      ["npm:1.10.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/morgan-npm-1.10.1-247862abc0-10c0.zip/node_modules/morgan/",\
+        "packageDependencies": [\
+          ["basic-auth", "npm:2.0.1"],\
+          ["debug", "virtual:e34a5db40400b9e5b2ff4a99207e6e6259d3054982622ae91b68c81eb2631164c6d9db4ab29c0dbf7620574b8d6b678f010601eafc55a6b832550053c1b61b7b#npm:2.6.9"],\
+          ["depd", "npm:2.0.0"],\
+          ["morgan", "npm:1.10.1"],\
+          ["on-finished", "npm:2.3.0"],\
+          ["on-headers", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["mpath", [\
       ["npm:0.9.0", {\
         "packageLocation": "../../../.yarn/berry/cache/mpath-npm-0.9.0-e79cc94aea-10c0.zip/node_modules/mpath/",\
@@ -1789,6 +1833,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["on-finished", [\
+      ["npm:2.3.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/on-finished-npm-2.3.0-4ce92f72c6-10c0.zip/node_modules/on-finished/",\
+        "packageDependencies": [\
+          ["ee-first", "npm:1.1.1"],\
+          ["on-finished", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:2.4.1", {\
         "packageLocation": "../../../.yarn/berry/cache/on-finished-npm-2.4.1-907af70f88-10c0.zip/node_modules/on-finished/",\
         "packageDependencies": [\
@@ -2004,6 +2056,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["safe-buffer", [\
+      ["npm:5.1.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/safe-buffer-npm-5.1.2-c27fedf6c4-10c0.zip/node_modules/safe-buffer/",\
+        "packageDependencies": [\
+          ["safe-buffer", "npm:5.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:5.2.1", {\
         "packageLocation": "../../../.yarn/berry/cache/safe-buffer-npm-5.2.1-3481c8aa9b-10c0.zip/node_modules/safe-buffer/",\
         "packageDependencies": [\
@@ -2069,6 +2128,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["bcrypt", "npm:6.0.0"],\
           ["compression", "npm:1.8.1"],\
+          ["cookie-parser", "npm:1.4.7"],\
           ["cors", "npm:2.8.5"],\
           ["dotenv", "npm:17.2.1"],\
           ["express", "npm:5.1.0"],\
@@ -2078,6 +2138,7 @@ const RAW_RUNTIME_STATE =
           ["hpp", "npm:0.2.3"],\
           ["jsonwebtoken", "npm:9.0.2"],\
           ["mongoose", "npm:8.18.0"],\
+          ["morgan", "npm:1.10.1"],\
           ["nodemailer", "npm:7.0.5"],\
           ["nodemon", "npm:3.1.10"],\
           ["server", "workspace:."],\
